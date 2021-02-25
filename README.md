@@ -1,1 +1,1 @@
-# SU_DET_Lab2
+# SU_DET_Project
