@@ -2777,6 +2777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Time Of Day Manager 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1271338391528030, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4370199993452236, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2823,7 +2827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
       propertyPath: dayInSeconds
-      value: 30
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
       propertyPath: m_AmbientSkyColor.r
@@ -2875,15 +2879,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
       propertyPath: m_SkyTint.r
-      value: 0.948992
+      value: 0.948961
       objectReference: {fileID: 0}
     - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
       propertyPath: m_SkyTint.g
-      value: 0.948992
+      value: 0.94899565
       objectReference: {fileID: 0}
     - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
       propertyPath: m_SkyTint.b
-      value: 0.948992
+      value: 0.9490136
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key0.g
+      value: 0.56078434
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key0.b
+      value: 0.851227
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key2.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key2.g
+      value: 0.7372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key2.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key3.r
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key3.g
+      value: 0.8123307
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key3.b
+      value: 0.049020927
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key5.r
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key5.g
+      value: 0.44037008
+      objectReference: {fileID: 0}
+    - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
+      propertyPath: skyTintGradient.key5.b
+      value: 0.030562414
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
