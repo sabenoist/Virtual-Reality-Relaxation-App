@@ -2827,7 +2827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
       propertyPath: dayInSeconds
-      value: 60
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 114224445558322720, guid: 3ca87a23fc1066341b2b37b3d3b9ba4d, type: 3}
       propertyPath: m_AmbientSkyColor.r
