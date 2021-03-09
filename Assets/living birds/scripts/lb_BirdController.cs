@@ -274,7 +274,8 @@ public class lb_BirdController : MonoBehaviour {
 				activeBirds++;
 				BirdFindTarget(bird);
 			}
-		}
+
+        }
 	}
 
 	bool AreThereActiveTargets(){
@@ -342,8 +343,9 @@ public class lb_BirdController : MonoBehaviour {
 	IEnumerator DeactivateFeathers(GameObject featherEmit){
 		yield return new WaitForSeconds(4.5f);
 		featherEmit.SetActive (false);
-	}
+    }
+
+    
+ } 
 
 
-
-}
