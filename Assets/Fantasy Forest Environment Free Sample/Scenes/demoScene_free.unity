@@ -736,6 +736,14 @@ PrefabInstance:
       propertyPath: m_ReflectionProbeUsage
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52b7d70b1de7c4ce09662b77c14d9fda, type: 2}
+    - target: {fileID: 11400000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9485b0c79d11e2e4d0007da98d76c639, type: 3}
 --- !u!1001 &762589686
@@ -1679,13 +1687,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248175502}
-  m_LocalRotation: {x: 0.07615623, y: 0.8982609, z: -0.08131998, w: 0.42510548}
+  m_LocalRotation: {x: 0.0035111355, y: 0.89913183, z: 0.07104545, w: 0.43185896}
   m_LocalPosition: {x: 17.17, y: 1.01, z: 35.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 12.172, y: 129.771, z: 3.97}
+  m_LocalEulerAnglesHint: {x: -7.165, y: 128.444, z: 3.911}
 --- !u!1001 &1309244397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3038,6 +3046,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1142640042221668, guid: 20de1bf9e984c4606a378e2e88960fe2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4301781751017244, guid: 20de1bf9e984c4606a378e2e88960fe2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.5
@@ -3094,6 +3106,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23948156561336780, guid: 20de1bf9e984c4606a378e2e88960fe2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 784f7b1ea93064cb79f69935ad0efad4, type: 2}
     - target: {fileID: 114451531188865348, guid: 20de1bf9e984c4606a378e2e88960fe2, type: 3}
       propertyPath: disablePixelLights
       value: 0
@@ -3110,6 +3126,10 @@ PrefabInstance:
       propertyPath: clipPlaneOffset
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 114451531188865348, guid: 20de1bf9e984c4606a378e2e88960fe2, type: 3}
+      propertyPath: surfaceMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 784f7b1ea93064cb79f69935ad0efad4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20de1bf9e984c4606a378e2e88960fe2, type: 3}
 --- !u!1001 &1962432737
