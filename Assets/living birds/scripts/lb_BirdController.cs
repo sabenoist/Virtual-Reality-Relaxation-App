@@ -20,8 +20,9 @@ public class lb_BirdController : MonoBehaviour {
 	public bool goldFinch = true;
 	public bool crow = true;
 
-	bool pause = false;
-	GameObject[] myBirds;
+
+    bool pause = false;
+	public GameObject[] myBirds;
 	List<string> myBirdTypes = new List<string>();
 	List<GameObject>  birdGroundTargets = new List<GameObject>();
 	List<GameObject> birdPerchTargets = new List<GameObject>();
@@ -144,7 +145,9 @@ public class lb_BirdController : MonoBehaviour {
 			featherEmitters[i].transform.parent = transform;
 			featherEmitters[i].SetActive (false);
 		}
-	}
+
+
+    }
 
 	void OnEnable(){
 		InvokeRepeating("UpdateBirds",1,1);
@@ -239,7 +242,7 @@ public class lb_BirdController : MonoBehaviour {
 	}
 
 	void Unspawn(GameObject bird){
-		bird.transform.position = Vector3.zero;
+        bird.transform.position = Vector3.zero;
 		bird.SetActive (false);
 		activeBirds --;
 	}
@@ -340,4 +343,7 @@ public class lb_BirdController : MonoBehaviour {
 		yield return new WaitForSeconds(4.5f);
 		featherEmit.SetActive (false);
 	}
+
+
+
 }
