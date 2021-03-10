@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/DreamForestTree/DemoScene.unity
-    guid: 6dc68697d72e283438f1cd3bd3441279
-  - enabled: 1
     path: Assets/Fantasy Forest Environment Free Sample/Scenes/demoScene_free.unity
     guid: 7769f33fb4fa2e5458344a36556ad760
+  - enabled: 1
+    path: Assets/Scenes/HandTrackiingTest.unity
+    guid: 8bd41400b57e7904fb50a39002ceb6c2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 84b4c0e24f3a178478e5396f3090f841, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fbc7df64a1146d848a5be658472c5d2c, type: 2}
