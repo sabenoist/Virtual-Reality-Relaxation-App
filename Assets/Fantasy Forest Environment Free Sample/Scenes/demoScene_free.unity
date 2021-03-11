@@ -1089,6 +1089,10 @@ PrefabInstance:
       propertyPath: m_StarsTwinkleSpeed
       value: 8.9
       objectReference: {fileID: 0}
+    - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
+      propertyPath: useStars
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
 --- !u!1 &939902223
