@@ -14,7 +14,7 @@ public class changeAudio : MonoBehaviour
         audio.Play();
         yield return new WaitForSeconds(145F);
         audio.clip = otherClip;
-        audio.volume = 0.2f;
+        audio.volume = 1f;
         audio.Play();
     }
 }
