@@ -11,7 +11,7 @@ public class lb_BirdController : MonoBehaviour {
 	public bool collideWithObjects = true;
 	public LayerMask groundLayer;
 	public float birdScale = 1.0f;
-    public float updateInterval = 70F;
+    public float updateInterval = 100F;
 
     public bool robin = true;
 	public bool blueJay = true;
@@ -193,10 +193,10 @@ public class lb_BirdController : MonoBehaviour {
       
             if (timeNow == updateInterval)
             {
-                AllFlee();
-                
+                AllFlee();               
             }
-           if (timeNow >= updateInterval)
+
+           if (timeNow > updateInterval)
             {
                 Unspawn(myBirds[birdIndex]);
             }
@@ -363,7 +363,7 @@ public class lb_BirdController : MonoBehaviour {
 		featherEmit.SetActive (false);
     }
 
-    
+ 
  } 
 
 
