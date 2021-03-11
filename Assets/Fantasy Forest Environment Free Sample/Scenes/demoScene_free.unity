@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.001
   m_LinearFogStart: 13
   m_LinearFogEnd: 48.5
-  m_AmbientSkyColor: {r: 0.4581661, g: 0.5627336, b: 0.72349155, a: 1}
+  m_AmbientSkyColor: {r: 0.0726099, g: 0.6901632, b: 0.9032, a: 1}
   m_AmbientEquatorColor: {r: 0.7248591, g: 0.832671, b: 0.926736, a: 1}
   m_AmbientGroundColor: {r: 0.42676395, g: 0.38884994, b: 0.36335483, a: 1}
   m_AmbientIntensity: 1
@@ -995,15 +995,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
       propertyPath: m_AmbientSkyColor.r
-      value: 0.4581661
+      value: 0.0726099
       objectReference: {fileID: 0}
     - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
       propertyPath: m_AmbientSkyColor.g
-      value: 0.5627336
+      value: 0.6901632
       objectReference: {fileID: 0}
     - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
       propertyPath: m_AmbientSkyColor.b
-      value: 0.72349155
+      value: 0.9032
       objectReference: {fileID: 0}
     - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
       propertyPath: m_AmbientEquatorColor.r
@@ -1069,6 +1069,18 @@ PrefabInstance:
       propertyPath: m_DirectionalLight
       value: 
       objectReference: {fileID: 370295286}
+    - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
+      propertyPath: ambientSkyColorGradient.key2.g
+      value: 0.7294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
+      propertyPath: ambientSkyColorGradient.key2.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
+      propertyPath: ambientSkyColorGradient.key2.b
+      value: 0.9843137
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
 --- !u!1 &939902223
