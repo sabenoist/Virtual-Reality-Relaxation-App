@@ -11,8 +11,9 @@ public class lb_BirdController : MonoBehaviour {
 	public bool collideWithObjects = true;
 	public LayerMask groundLayer;
 	public float birdScale = 1.0f;
+    public float updateInterval = 20F;
 
-	public bool robin = true;
+    public bool robin = true;
 	public bool blueJay = true;
 	public bool cardinal = true;
 	public bool chickadee = true;
@@ -185,7 +186,14 @@ public class lb_BirdController : MonoBehaviour {
 			Unspawn(myBirds[birdIndex]);
 		}
 
-		birdIndex = birdIndex == myBirds.Length-1 ? 0:birdIndex+1;
+        float timeNow = Time.realtimeSinceStartup;
+        if (timeNow > updateInterval)
+        {
+            AllFlee();
+            AllPause();
+        }
+
+        birdIndex = birdIndex == myBirds.Length-1 ? 0:birdIndex+1;
 	}
 
 	//this function will cycle through targets removing those outside of the unspawnDistance
