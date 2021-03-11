@@ -196,9 +196,10 @@ public class lb_BirdController : MonoBehaviour {
                 AllFlee();               
             }
 
-           if (timeNow > updateInterval)
+           if (timeNow > updateInterval+1F)
             {
-                Unspawn(myBirds[birdIndex]);
+            Unspawn(myBirds[birdIndex]);
+            AllPause();
             }
       
     }
