@@ -188,28 +188,48 @@ public class lb_BirdController : MonoBehaviour {
 
         birdIndex = birdIndex == myBirds.Length - 1 ? 0 : birdIndex + 1;
 
-   
         float timeNow = Time.realtimeSinceStartup;
-      
-            if (timeNow == updateInterval)
-            {
-                AllFlee();               
-            }
 
-           if (timeNow > updateInterval+1F)
-            {
+        if (timeNow == updateInterval)
+        {
+            AllFlee();
+        }
+
+        if (timeNow > updateInterval + 1F && timeNow < updateInterval * 2)
+        {
             Unspawn(myBirds[birdIndex]);
             AllPause();
-            }
-      
+        }
+
+        if (pause)
+        {
+            birdControl();
+        }
+       
     }
 
-        
-	
+public void birdControl()
+    {
+        float timeNow = Time.realtimeSinceStartup;
 
-	//this function will cycle through targets removing those outside of the unspawnDistance
-	//it will also add any new targets that come into range
-	IEnumerator UpdateTargets(){
+       
+        if ( timeNow >= updateInterval * 2)
+        {
+            AllUnPause();
+            SpawnBird();
+            SpawnBird(); SpawnBird();
+
+        }
+       
+    }
+
+
+
+
+
+//this function will cycle through targets removing those outside of the unspawnDistance
+//it will also add any new targets that come into range
+IEnumerator UpdateTargets(){
 		List<GameObject> gtRemove = new List<GameObject>();
 		List<GameObject> ptRemove = new List<GameObject>();
 

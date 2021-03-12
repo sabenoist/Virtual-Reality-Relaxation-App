@@ -1296,7 +1296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 3}
       propertyPath: updateInterval
-      value: 145
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ca5316dd08051f42b31052d31beefed, type: 3}
@@ -2331,8 +2331,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b677ddcb201385546a14083432128714, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otherClip: {fileID: 8300000, guid: 816ff03ebf87c4ca2a64e38cf585ceb2, type: 3}
-  delayTime: 145
+  nightClip: {fileID: 8300000, guid: 816ff03ebf87c4ca2a64e38cf585ceb2, type: 3}
+  dayClip: {fileID: 8300000, guid: d0167b53a13c7de4ea0ac3d221db1e53, type: 3}
+  delayTime: 20
 --- !u!1001 &1309244397
 PrefabInstance:
   m_ObjectHideFlags: 0
