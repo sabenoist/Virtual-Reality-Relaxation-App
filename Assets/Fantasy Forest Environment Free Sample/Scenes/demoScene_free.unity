@@ -1147,7 +1147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8837409463461314245, guid: fff438785b26f70479fb89d09536524c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8837409463461667557, guid: fff438785b26f70479fb89d09536524c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1296,7 +1296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 3}
       propertyPath: updateInterval
-      value: 30
+      value: 145
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ca5316dd08051f42b31052d31beefed, type: 3}
@@ -2333,7 +2333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nightClip: {fileID: 8300000, guid: 816ff03ebf87c4ca2a64e38cf585ceb2, type: 3}
   dayClip: {fileID: 8300000, guid: d0167b53a13c7de4ea0ac3d221db1e53, type: 3}
-  delayTime: 20
+  delayTime: 145
 --- !u!1001 &1309244397
 PrefabInstance:
   m_ObjectHideFlags: 0

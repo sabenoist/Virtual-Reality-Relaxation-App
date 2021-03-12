@@ -216,14 +216,13 @@ public void birdControl()
         if ( timeNow >= updateInterval * 2)
         {
             AllUnPause();
-            SpawnBird();
-            SpawnBird(); SpawnBird();
+            SpawnAmount(4);
+            //SpawnBird();
+            //SpawnBird();
 
         }
        
     }
-
-
 
 
 
