@@ -1349,6 +1349,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4000012258007966, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.12743221
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012258007966, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.21458796
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012258007966, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.02825104
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012258007966, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.96794367
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013452891230, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2126,7 +2142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &1248175505
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2185,13 +2201,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248175502}
-  m_LocalRotation: {x: 0.034096368, y: 0.6580662, z: -0.23057012, w: 0.71597743}
+  m_LocalRotation: {x: 0.056171883, y: 0.4834142, z: -0.037627537, w: 0.872777}
   m_LocalPosition: {x: 15.99, y: 2, z: 31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 20.627, y: 81.918, z: -17.748}
+  m_LocalEulerAnglesHint: {x: 7.726, y: 57.918, z: -0.658}
 --- !u!4 &1250109366 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400030, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
@@ -2316,6 +2332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherClip: {fileID: 8300000, guid: 816ff03ebf87c4ca2a64e38cf585ceb2, type: 3}
+  delayTime: 145
 --- !u!1001 &1309244397
 PrefabInstance:
   m_ObjectHideFlags: 0

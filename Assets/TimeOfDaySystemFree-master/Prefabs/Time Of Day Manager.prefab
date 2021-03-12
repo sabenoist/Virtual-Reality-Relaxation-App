@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000010506240020}
-  m_LocalRotation: {x: 0.12743223, y: 0.21458799, z: -0.028251044, w: 0.96794367}
+  m_LocalRotation: {x: 0.11728914, y: 0.21487205, z: -0.026002377, w: 0.96922505}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.0000042, y: 1.0000236, z: 1.0000234}
   m_Children: []
@@ -42,8 +42,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.70980394, b: 0.48235294, a: 1}
-  m_Intensity: 0.9259257
+  m_Color: {r: 1, g: 0.70534784, b: 0.48235294, a: 1}
+  m_Intensity: 0.8620738
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -234,7 +234,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   dayInSeconds: 900
   timeline: 7
-  m_SunColor: {r: 1, g: 0.70980394, b: 0.48235294, a: 1}
+  m_SunColor: {r: 1, g: 0.7110991, b: 0.48235294, a: 1}
   useSunColorGradient: 1
   sunColorGradient:
     serializedVersion: 2
@@ -476,7 +476,7 @@ MonoBehaviour:
     m_RotationOrder: 0
   m_AmbientMode: 1
   useAmbientSkyColorGradient: 1
-  m_AmbientSkyColor: {r: 0.45882353, g: 0.56078434, b: 0.72156864, a: 1}
+  m_AmbientSkyColor: {r: 0.4581661, g: 0.5627336, b: 0.72349155, a: 1}
   ambientSkyColorGradient:
     serializedVersion: 2
     key0: {r: 0.003921569, g: 0.07058824, b: 0.16078432, a: 1}
@@ -507,7 +507,7 @@ MonoBehaviour:
     m_NumColorKeys: 6
     m_NumAlphaKeys: 2
   useAmbientEquatorColorGradient: 1
-  m_AmbientEquatorColor: {r: 0.7254902, g: 0.83137256, b: 0.9254902, a: 1}
+  m_AmbientEquatorColor: {r: 0.7248591, g: 0.832671, b: 0.926736, a: 1}
   ambientEquatorColorGradient:
     serializedVersion: 2
     key0: {r: 0.007843138, g: 0.1254902, b: 0.27450982, a: 1}
@@ -538,7 +538,7 @@ MonoBehaviour:
     m_NumColorKeys: 6
     m_NumAlphaKeys: 2
   useAmbientGroundColorGradient: 1
-  m_AmbientGroundColor: {r: 0.42745098, g: 0.3882353, b: 0.36078432, a: 1}
+  m_AmbientGroundColor: {r: 0.42676395, g: 0.38884994, b: 0.36335483, a: 1}
   ambientGroundColorGradient:
     serializedVersion: 2
     key0: {r: 0, g: 0, b: 0, a: 1}
@@ -676,7 +676,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   useFogColorGradient: 1
-  m_FogColor: {r: 0.59607846, g: 0.69803923, b: 0.827451, a: 1}
+  m_FogColor: {r: 0.5941325, g: 0.6973785, b: 0.8293706, a: 1}
   fogColorGradient:
     serializedVersion: 2
     key0: {r: 0.007843138, g: 0.11764706, b: 0.25882354, a: 1}
@@ -1298,7 +1298,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000012904765898}
-  m_LocalRotation: {x: 0.12743221, y: 0.21458796, z: -0.02825104, w: 0.96794367}
+  m_LocalRotation: {x: 0.11728913, y: 0.21487203, z: -0.026002375, w: 0.96922505}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
