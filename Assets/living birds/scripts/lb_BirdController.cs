@@ -192,7 +192,7 @@ public class lb_BirdController : MonoBehaviour
 
         timeOfDayScript = TimeOfDayManager.GetComponent<AC.TimeOfDaySystemFree.TimeOfDay>();
         dayInSeconds = timeOfDayScript.dayInSeconds;
-        updateInterval = dayInSeconds / 2 - 3F;
+        updateInterval = dayInSeconds / 2;
     }
 
     void OnEnable()
