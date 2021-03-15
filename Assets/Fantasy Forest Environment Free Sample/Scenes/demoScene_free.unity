@@ -1507,7 +1507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
       propertyPath: dayInSeconds
-      value: 60
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
       propertyPath: m_AtmosphereThickness
