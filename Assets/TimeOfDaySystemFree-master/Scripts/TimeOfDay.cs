@@ -671,7 +671,11 @@ namespace AC.TimeOfDaySystemFree
 			}
 		}
 
+        public float getTime()
+        {
+            return dayInSeconds;
+        }
 
 
-	}
+    }
 }

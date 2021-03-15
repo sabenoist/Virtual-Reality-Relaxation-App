@@ -7,11 +7,20 @@ public class changeAudio : MonoBehaviour
 {
     public AudioClip nightClip;
     public AudioClip dayClip;
-    public float delayTime = 145F;
+    
+    public GameObject TimeOfDayManager;
+    public AC.TimeOfDaySystemFree.TimeOfDay timeOfDayScript;
+    public float dayInSeconds;
+
+    public float delayTime;
 
 
     IEnumerator Start()
     {
+        timeOfDayScript = TimeOfDayManager.GetComponent<AC.TimeOfDaySystemFree.TimeOfDay>();
+        dayInSeconds = timeOfDayScript.dayInSeconds;
+        delayTime = dayInSeconds / 2;
+
         AudioSource audio = GetComponent<AudioSource>();
 
         audio.Play();

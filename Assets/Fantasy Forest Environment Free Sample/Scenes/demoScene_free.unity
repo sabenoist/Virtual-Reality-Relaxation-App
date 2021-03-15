@@ -1151,7 +1151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8837409463461667557, guid: fff438785b26f70479fb89d09536524c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.418
+      value: 15.47
       objectReference: {fileID: 0}
     - target: {fileID: 8837409463461667557, guid: fff438785b26f70479fb89d09536524c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1159,7 +1159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8837409463461667557, guid: fff438785b26f70479fb89d09536524c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.544
+      value: 31.56
       objectReference: {fileID: 0}
     - target: {fileID: 8837409463461667557, guid: fff438785b26f70479fb89d09536524c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1298,6 +1298,14 @@ PrefabInstance:
       propertyPath: updateInterval
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 3}
+      propertyPath: TimeOfDayManager
+      value: 
+      objectReference: {fileID: 2052804007}
+    - target: {fileID: 11400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 3}
+      propertyPath: timeOfDayScript
+      value: 
+      objectReference: {fileID: 2052804008}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ca5316dd08051f42b31052d31beefed, type: 3}
 --- !u!4 &780521239 stripped
@@ -1499,7 +1507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
       propertyPath: dayInSeconds
-      value: 300
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
       propertyPath: m_AtmosphereThickness
@@ -2333,6 +2341,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nightClip: {fileID: 8300000, guid: 816ff03ebf87c4ca2a64e38cf585ceb2, type: 3}
   dayClip: {fileID: 8300000, guid: d0167b53a13c7de4ea0ac3d221db1e53, type: 3}
+  TimeOfDayManager: {fileID: 2052804007}
+  timeOfDayScript: {fileID: 2052804008}
+  dayInSeconds: 0
   delayTime: 145
 --- !u!1001 &1309244397
 PrefabInstance:
@@ -3695,6 +3706,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
   m_PrefabInstance: {fileID: 559202438}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2052804007 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000010809942156, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
+  m_PrefabInstance: {fileID: 878048659}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2052804008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
+  m_PrefabInstance: {fileID: 878048659}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052804007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a73e80d9bf212646a66897fa1fa6ff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2059440987 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400026, guid: 5917c0e93d180a842b61d1ebc62a195c, type: 3}
