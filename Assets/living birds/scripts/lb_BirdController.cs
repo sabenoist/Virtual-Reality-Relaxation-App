@@ -24,9 +24,11 @@ public class lb_BirdController : MonoBehaviour
     public bool crow = true;
 
     public GameObject TimeOfDayManager;
+    // public AC.TimeOfDaySystemFree.TimeOfDay IsNight;
     public AC.TimeOfDaySystemFree.TimeOfDay timeOfDayScript;
+    //public float timeline=6f;
+    //private bool IsNight;
     public float dayInSeconds;
-    public float updateInterval;
 
     bool pause = false;
     GameObject[] myBirds;
@@ -191,8 +193,9 @@ public class lb_BirdController : MonoBehaviour
 
 
         timeOfDayScript = TimeOfDayManager.GetComponent<AC.TimeOfDaySystemFree.TimeOfDay>();
+        // timeline = timeOfDayScript.timeline;
+        /// IsNight = timeOfDayScript.IsNight;
         dayInSeconds = timeOfDayScript.dayInSeconds;
-        updateInterval = dayInSeconds / 2 - 3F;
     }
 
     void OnEnable()
@@ -241,32 +244,34 @@ public class lb_BirdController : MonoBehaviour
 
         birdIndex = birdIndex == myBirds.Length - 1 ? 0 : birdIndex + 1;
 
+
+        //if ((timeline <= 5.49f || timeline >= 18.49f))
+        //   if(IsNight)
         float timeNow = Time.realtimeSinceStartup;
 
-        if (timeNow == updateInterval)
+        if (timeNow == dayInSeconds / 2)
         {
             AllFlee();
         }
 
-        if (timeNow > updateInterval + 1F && timeNow < updateInterval * 2)
+        if (timeNow > dayInSeconds / 2 + 1F && timeNow < dayInSeconds)
         {
             Unspawn(myBirds[birdIndex]);
             AllPause();
         }
-
         if (pause)
         {
             birdControl();
         }
 
-    }
 
+    }
     public void birdControl()
     {
         float timeNow = Time.realtimeSinceStartup;
 
 
-        if (timeNow >= updateInterval * 2)
+        if (timeNow >= dayInSeconds)
         {
             AllUnPause();
             SpawnAmount(4);
