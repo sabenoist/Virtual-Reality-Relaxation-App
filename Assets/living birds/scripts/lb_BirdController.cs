@@ -24,8 +24,9 @@ public class lb_BirdController : MonoBehaviour
     public bool crow = true;
 
     public GameObject TimeOfDayManager;
-    // public AC.TimeOfDaySystemFree.TimeOfDay IsNight;
+    
     public AC.TimeOfDaySystemFree.TimeOfDay timeOfDayScript;
+    // public AC.TimeOfDaySystemFree.TimeOfDay IsNight;
     //public float timeline=6f;
     //private bool IsNight;
     public float dayInSeconds;
@@ -246,7 +247,7 @@ public class lb_BirdController : MonoBehaviour
 
 
         //if ((timeline <= 5.49f || timeline >= 18.49f))
-        //   if(IsNight)
+        //if(IsNight)
         float timeNow = Time.realtimeSinceStartup;
 
         if (timeNow == dayInSeconds / 2)
