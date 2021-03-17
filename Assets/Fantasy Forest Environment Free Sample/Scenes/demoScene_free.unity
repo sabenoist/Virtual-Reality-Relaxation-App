@@ -1299,6 +1299,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Female_02_V02
       objectReference: {fileID: 0}
+    - target: {fileID: 5691784846751162997, guid: 1fd66bbf381343743a19aaa1b2bd81d6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e27eefb63ce9ee043aed325be9d9592e, type: 2}
+    - target: {fileID: 5691784846860831299, guid: 1fd66bbf381343743a19aaa1b2bd81d6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e27eefb63ce9ee043aed325be9d9592e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fd66bbf381343743a19aaa1b2bd81d6, type: 3}
 --- !u!4 &828509344 stripped
