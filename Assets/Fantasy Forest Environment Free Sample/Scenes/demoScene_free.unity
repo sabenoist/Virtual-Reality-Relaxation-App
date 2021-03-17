@@ -1307,6 +1307,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3868990969095917117, guid: 1fd66bbf381343743a19aaa1b2bd81d6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.284
+      objectReference: {fileID: 0}
+    - target: {fileID: 3868990969095917117, guid: 1fd66bbf381343743a19aaa1b2bd81d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.554
+      objectReference: {fileID: 0}
+    - target: {fileID: 3868990969095917117, guid: 1fd66bbf381343743a19aaa1b2bd81d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.16
+      objectReference: {fileID: 0}
     - target: {fileID: 4138811459658833044, guid: 1fd66bbf381343743a19aaa1b2bd81d6, type: 3}
       propertyPath: m_Name
       value: Female_02_V02
