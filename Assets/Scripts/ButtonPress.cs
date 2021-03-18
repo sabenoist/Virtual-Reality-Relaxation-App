@@ -12,6 +12,10 @@ public class ButtonPress : MonoBehaviour
 
     // the player touches the button
     void OnTriggerEnter(Collider col) {
+        if (buttonUsed) {
+            return;
+        }
+
         GetComponent<MeshRenderer>().material = buttonActive;
     }
 
