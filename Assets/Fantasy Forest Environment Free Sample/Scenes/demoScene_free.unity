@@ -962,7 +962,7 @@ PrefabInstance:
       objectReference: {fileID: 2052804008}
     - target: {fileID: 11400000, guid: 1ca5316dd08051f42b31052d31beefed, type: 3}
       propertyPath: dayInSeconds
-      value: 300
+      value: 1800
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ca5316dd08051f42b31052d31beefed, type: 3}
@@ -1612,7 +1612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
       propertyPath: dayInSeconds
-      value: 300
+      value: 1800
       objectReference: {fileID: 0}
     - target: {fileID: 114000014225622392, guid: 4aab7a1543bedcc46b9b59c6404e5f00, type: 3}
       propertyPath: m_AtmosphereThickness
